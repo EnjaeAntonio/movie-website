@@ -12,11 +12,11 @@
    }
 
 .container {
-    width: min(100% - 30px, 1280px);
+    width: min(100% - 30px, 980px);
     margin-inline: auto;
 }
 .movie-container{
-    width: min(100% - 30px, 900px);
+    width: min(100% - 30px, 800px);
     margin-inline: auto;
 }
 
@@ -90,10 +90,11 @@ nav ul li a {
     font-weight: 600;
     text-decoration: none;
     cursor: pointer;
+    transition: all .2s ease-in;
 }
 
 nav ul li a:hover {
-    text-decoration: 1.5px underline #add8e6;
+    color: #add8e6;
 }
 
 nav ul li + li {
